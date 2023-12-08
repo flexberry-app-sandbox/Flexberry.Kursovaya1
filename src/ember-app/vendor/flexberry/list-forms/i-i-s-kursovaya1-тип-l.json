@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya1-тип-e",
+  "editForm": "i-i-s-kursovaya1-тип-e",
+  "external": false,
+  "caption": "Тип",
+  "name": "IISKursovaya1ТипL",
+  "className": "ТипL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya1-тип",
+      "modelProjection": "ТипL"
+    }
+  ]
+}

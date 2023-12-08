@@ -1,0 +1,154 @@
+﻿{
+  "name": "IISKursovaya1Оборудование",
+  "modelName": "i-i-s-kursovaya1-оборудование",
+  "className": "Оборудование",
+  "nameSpace": "IIS.Kursovaya1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаДобавления",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "инвНомер",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "название",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудник",
+      "relatedTo": "i-i-s-kursovaya1-пользователь",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "тип",
+      "relatedTo": "i-i-s-kursovaya1-тип",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОборудованиеE",
+      "modelName": "i-i-s-kursovaya1-оборудование",
+      "attrs": [
+        {
+          "name": "название",
+          "caption": "Название",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "инвНомер",
+          "caption": "Инв номер",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаДобавления",
+          "caption": "Дата добавления",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОборудованиеL",
+      "modelName": "i-i-s-kursovaya1-оборудование",
+      "attrs": [
+        {
+          "name": "название",
+          "caption": "Название",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "инвНомер",
+          "caption": "Инв номер",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаДобавления",
+          "caption": "Дата добавления",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Тип",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "название",
+              "caption": "Название",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Название",
+          "name": "тип",
+          "relatedTo": "i-i-s-kursovaya1-тип",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-kursovaya1-пользователь",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

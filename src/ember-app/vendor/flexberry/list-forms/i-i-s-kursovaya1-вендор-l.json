@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya1-вендор-e",
+  "editForm": "i-i-s-kursovaya1-вендор-e",
+  "external": false,
+  "caption": "Вендор",
+  "name": "IISKursovaya1ВендорL",
+  "className": "ВендорL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya1-вендор",
+      "modelProjection": "ВендорL"
+    }
+  ]
+}

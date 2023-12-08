@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Рабочее место",
+  "name": "IISKursovaya1РабочееМестоE",
+  "className": "РабочееМестоE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya1-рабочее-место",
+      "modelProjection": "РабочееМестоE"
+    }
+  ]
+}

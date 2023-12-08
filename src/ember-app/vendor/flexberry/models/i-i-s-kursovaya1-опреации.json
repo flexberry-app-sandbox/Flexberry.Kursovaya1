@@ -1,0 +1,111 @@
+﻿{
+  "name": "IISKursovaya1Опреации",
+  "modelName": "i-i-s-kursovaya1-опреации",
+  "className": "Опреации",
+  "nameSpace": "IIS.Kursovaya1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "действие",
+      "type": "i-i-s-kursovaya1-t-действие",
+      "flexberryType": "tДействие",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состояние",
+      "type": "i-i-s-kursovaya1-t-состояние",
+      "flexberryType": "tСостояние",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "админ",
+      "relatedTo": "i-i-s-kursovaya1-пользователь",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "оборудование",
+      "relatedTo": "i-i-s-kursovaya1-оборудование",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОпреацииE",
+      "modelName": "i-i-s-kursovaya1-опреации",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "действие",
+          "caption": "Действие",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОпреацииL",
+      "modelName": "i-i-s-kursovaya1-опреации",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "действие",
+          "caption": "Действие",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

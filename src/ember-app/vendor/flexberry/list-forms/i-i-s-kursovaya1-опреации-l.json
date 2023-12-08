@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya1-опреации-e",
+  "editForm": "i-i-s-kursovaya1-опреации-e",
+  "external": false,
+  "caption": "Опреации",
+  "name": "IISKursovaya1ОпреацииL",
+  "className": "ОпреацииL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya1-опреации",
+      "modelProjection": "ОпреацииL"
+    }
+  ]
+}

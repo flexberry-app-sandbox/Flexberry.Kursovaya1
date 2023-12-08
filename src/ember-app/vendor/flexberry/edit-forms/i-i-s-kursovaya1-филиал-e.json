@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Филиал",
+  "name": "IISKursovaya1ФилиалE",
+  "className": "ФилиалE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya1-филиал",
+      "modelProjection": "ФилиалE"
+    }
+  ]
+}

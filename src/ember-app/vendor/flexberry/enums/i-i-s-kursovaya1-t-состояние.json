@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Kursovaya1",
+  "className": "tСостояние",
+  "enumObjects": {
+    "Отлично": "",
+    "НеОчень": ""
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya1-рабочее-место-e",
+  "editForm": "i-i-s-kursovaya1-рабочее-место-e",
+  "external": false,
+  "caption": "Рабочее место",
+  "name": "IISKursovaya1РабочееМестоL",
+  "className": "РабочееМестоL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya1-рабочее-место",
+      "modelProjection": "РабочееМестоL"
+    }
+  ]
+}

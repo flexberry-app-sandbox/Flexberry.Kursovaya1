@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Опреации",
+  "name": "IISKursovaya1ОпреацииE",
+  "className": "ОпреацииE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya1-опреации",
+      "modelProjection": "ОпреацииE"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+﻿{
+  "name": "IISKursovaya1ПО",
+  "modelName": "i-i-s-kursovaya1-п-о",
+  "className": "ПО",
+  "nameSpace": "IIS.Kursovaya1",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "freeware",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "версия",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "название",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "вендор",
+      "relatedTo": "i-i-s-kursovaya1-вендор",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "рабочееМесто",
+      "relatedTo": "i-i-s-kursovaya1-рабочее-место",
+      "inverse": "пО"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПОE",
+      "modelName": "i-i-s-kursovaya1-п-о",
+      "attrs": [
+        {
+          "name": "название",
+          "caption": "Название",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "версия",
+          "caption": "Версия",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "freeware",
+          "caption": "Freeware",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
