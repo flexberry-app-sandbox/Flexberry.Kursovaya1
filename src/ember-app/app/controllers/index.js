@@ -22,71 +22,43 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya1-тип-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-тип-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-тип-l.title'),
-            icon: 'tags',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-вендор-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-вендор-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-вендор-l.title'),
-            icon: 'edit',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-филиал-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-филиал-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-филиал-l.title'),
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-пользователь-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-пользователь-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-пользователь-l.title'),
-            icon: 'table',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-оборудование-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-оборудование-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-оборудование-l.title'),
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-рабочее-место-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-рабочее-место-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-рабочее-место-l.title'),
-            icon: 'file',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-опреации-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-опреации-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-опреации-l.title'),
-            icon: 'address card',
-            children: null
-          }]
-        }, {
-          link: null,
-          icon: 'list',
-          caption: i18n.t('forms.application.sitemap.new-folder1.caption'),
-          title: i18n.t('forms.application.sitemap.new-folder1.title'),
-          children: [{
-            link: 'i-i-s-kursovaya1-тип-l',
-            caption: i18n.t('forms.application.sitemap.new-folder1.i-i-s-kursovaya1-тип-l.caption'),
-            title: i18n.t('forms.application.sitemap.new-folder1.i-i-s-kursovaya1-тип-l.title'),
-            icon: 'briefcase',
-            children: null
-          }, {
-            link: 'i-i-s-kursovaya1-вендор-l',
-            caption: i18n.t('forms.application.sitemap.new-folder1.i-i-s-kursovaya1-вендор-l.caption'),
-            title: i18n.t('forms.application.sitemap.new-folder1.i-i-s-kursovaya1-вендор-l.title'),
-            icon: 'folder',
-            children: null
-          }, {
-            link: 'i-i-s-kursovaya1-филиал-l',
-            caption: i18n.t('forms.application.sitemap.new-folder1.i-i-s-kursovaya1-филиал-l.caption'),
-            title: i18n.t('forms.application.sitemap.new-folder1.i-i-s-kursovaya1-филиал-l.title'),
-            icon: 'chart bar',
-            children: null
-          }, {
-            link: 'i-i-s-kursovaya1-пользователь-l',
-            caption: i18n.t('forms.application.sitemap.new-folder1.i-i-s-kursovaya1-пользователь-l.caption'),
-            title: i18n.t('forms.application.sitemap.new-folder1.i-i-s-kursovaya1-пользователь-l.title'),
-            icon: 'chart line',
+            icon: 'building',
             children: null
           }]
         }
