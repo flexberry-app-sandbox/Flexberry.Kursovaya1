@@ -134,6 +134,26 @@ $.extend(true, translations, {
             title: ''
           }
         },
+        справочник: {
+          caption: 'Справочник',
+          title: 'Справочник',
+          'i-i-s-kursovaya1-вендор-l': {
+            caption: 'ВендорL',
+            title: 'Вендор'
+          },
+          'i-i-s-kursovaya1-тип-l': {
+            caption: 'ТипL',
+            title: 'Тип'
+          },
+          'i-i-s-kursovaya1-филиал-l': {
+            caption: 'ФилиалL',
+            title: 'Филиал'
+          },
+          'i-i-s-kursovaya1-пользователь-l': {
+            caption: 'ПользовательL',
+            title: 'Пользователь'
+          }
+        },
         'new-folder1': {
           caption: 'NewFolder1',
           title: 'NewFolder1',

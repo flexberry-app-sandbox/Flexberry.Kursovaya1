@@ -28,43 +28,71 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya1-тип-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-тип-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-тип-l.title'),
-            icon: 'address card',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-вендор-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-вендор-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-вендор-l.title'),
-            icon: 'file',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-филиал-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-филиал-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-филиал-l.title'),
-            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-пользователь-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-пользователь-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-пользователь-l.title'),
-            icon: 'folder',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-оборудование-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-оборудование-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-оборудование-l.title'),
-            icon: 'paperclip',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-рабочее-место-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-рабочее-место-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-рабочее-место-l.title'),
-            icon: 'address card',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-kursovaya1-опреации-l',
             caption: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-опреации-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya1.i-i-s-kursovaya1-опреации-l.title'),
-            icon: 'briefcase',
+            icon: 'book',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.справочник.caption'),
+          title: i18n.t('forms.application.sitemap.справочник.title'),
+          children: [{
+            link: 'i-i-s-kursovaya1-вендор-l',
+            caption: i18n.t('forms.application.sitemap.справочник.i-i-s-kursovaya1-вендор-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочник.i-i-s-kursovaya1-вендор-l.title'),
+            icon: 'file',
+            children: null
+          }, {
+            link: 'i-i-s-kursovaya1-тип-l',
+            caption: i18n.t('forms.application.sitemap.справочник.i-i-s-kursovaya1-тип-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочник.i-i-s-kursovaya1-тип-l.title'),
+            children: null
+          }, {
+            link: 'i-i-s-kursovaya1-филиал-l',
+            caption: i18n.t('forms.application.sitemap.справочник.i-i-s-kursovaya1-филиал-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочник.i-i-s-kursovaya1-филиал-l.title'),
+            icon: 'folder open',
+            children: null
+          }, {
+            link: 'i-i-s-kursovaya1-пользователь-l',
+            caption: i18n.t('forms.application.sitemap.справочник.i-i-s-kursovaya1-пользователь-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочник.i-i-s-kursovaya1-пользователь-l.title'),
+            icon: 'calendar',
             children: null
           }]
         }
