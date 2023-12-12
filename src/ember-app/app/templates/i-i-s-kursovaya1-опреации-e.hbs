@@ -55,4 +55,50 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel "состояние" "message")}}
   </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya1-опреации-e.оборудование-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.оборудование
+      relationName="оборудование"
+      projection="ОборудованиеL"
+      title=(t "forms.i-i-s-kursovaya1-опреации-e.оборудование-caption")
+      readonly=readonly
+      componentName="оборудованиеLookup"
+      class=(if (v-get validationModel "оборудование" "isInvalid") "error")
+      data-test-i-i-s-kursovaya1-опреации-e-оборудование=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "оборудование" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.оборудование.название
+      class=(if (v-get validationModel.оборудование "название" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya1-опреации-e.оборудование.название-caption")
+      data-test-i-i-s-kursovaya1-опреации-e-оборудование-название=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.оборудование "название" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya1-опреации-e.оборудование.сотрудник.админ-caption"}}</label>
+    {{flexberry-checkbox
+      readonly=true
+      value=model.оборудование.сотрудник.админ
+      class=(if (v-get validationModel.оборудование.сотрудник "админ" "isInvalid") "error")
+      data-test-i-i-s-kursovaya1-опреации-e-оборудование-сотрудник-админ=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.оборудование.сотрудник "админ" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.оборудование.сотрудник.фИО
+      class=(if (v-get validationModel.оборудование.сотрудник "фИО" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya1-опреации-e.оборудование.сотрудник.фИО-caption")
+      data-test-i-i-s-kursovaya1-опреации-e-оборудование-сотрудник-фИО=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.оборудование.сотрудник "фИО" "message")}}
+  </div>
 </form>

@@ -51,6 +51,9 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ПОE', 'i-i-s-kursovaya1-п-о', {
     название: attr('Название', { index: 0 }),
     версия: attr('Версия', { index: 1 }),
-    freeware: attr('Freeware', { index: 2 })
+    freeware: attr('Freeware', { index: 2 }),
+    вендор: belongsTo('i-i-s-kursovaya1-вендор', 'Название', {
+      название: attr('Название', { index: 3 })
+    }, { index: -1, hidden: true })
   });
 };

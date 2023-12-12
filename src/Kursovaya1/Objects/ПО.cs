@@ -31,7 +31,8 @@ namespace IIS.Kursovaya1
     [View("ПОE", new string[] {
             "Название as \'Название\'",
             "Версия as \'Версия\'",
-            "Freeware as \'Freeware\'"})]
+            "Freeware as \'Freeware\'",
+            "Вендор.Название as \'Название\'"})]
     public class ПО : ICSSoft.STORMNET.DataObject
     {
         

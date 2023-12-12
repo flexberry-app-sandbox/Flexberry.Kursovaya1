@@ -52,7 +52,14 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ОпреацииE', 'i-i-s-kursovaya1-опреации', {
     дата: attr('Дата', { index: 0 }),
     действие: attr('Действие', { index: 1 }),
-    состояние: attr('Состояние', { index: 2 })
+    состояние: attr('Состояние', { index: 2 }),
+    оборудование: belongsTo('i-i-s-kursovaya1-оборудование', 'Оборудование', {
+      название: attr('Название', { index: 4 }),
+      сотрудник: belongsTo('i-i-s-kursovaya1-пользователь', '', {
+        админ: attr('Админ', { index: 5 }),
+        фИО: attr('', { index: 6 })
+      }, { index: -1, hidden: true })
+    }, { index: 3 })
   });
 
   modelClass.defineProjection('ОпреацииL', 'i-i-s-kursovaya1-опреации', {

@@ -9,6 +9,12 @@ export default {
       },
       freeware: {
         __caption__: 'Freeware'
+      },
+      вендор: {
+        __caption__: 'Название',
+        название: {
+          __caption__: 'Название'
+        }
       }
     }
   },

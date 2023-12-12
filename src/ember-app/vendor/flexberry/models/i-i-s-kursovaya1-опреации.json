@@ -75,7 +75,57 @@
           "index": 2
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Оборудование",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Оборудование.Сотрудник",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "админ",
+                  "caption": "Админ",
+                  "hidden": false,
+                  "index": 5
+                },
+                {
+                  "name": "фИО",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 6
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "сотрудник",
+              "relatedTo": "i-i-s-kursovaya1-пользователь",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "название",
+              "caption": "Название",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "default",
+          "caption": "Оборудование",
+          "name": "оборудование",
+          "relatedTo": "i-i-s-kursovaya1-оборудование",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {
