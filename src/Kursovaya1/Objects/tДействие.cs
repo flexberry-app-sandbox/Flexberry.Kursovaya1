@@ -12,6 +12,7 @@ namespace IIS.Kursovaya1
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,11 +32,13 @@ namespace IIS.Kursovaya1
         // *** Start programmer edit section *** (tДействие.Утановка CustomAttributes)
 
         // *** End programmer edit section *** (tДействие.Утановка CustomAttributes)
+        [Caption("Утановка")]
         Утановка,
         
         // *** Start programmer edit section *** (tДействие.Изменение CustomAttributes)
 
         // *** End programmer edit section *** (tДействие.Изменение CustomAttributes)
+        [Caption("Изменение")]
         Изменение,
     }
 }

@@ -58,42 +58,6 @@
           "children": null
         }
       ]
-    },
-    {
-      "link": null,
-      "menuName": "справочник",
-      "caption": "Справочник",
-      "title": "Справочник",
-      "children": [
-        {
-          "link": "i-i-s-kursovaya1-вендор-l",
-          "menuName": null,
-          "caption": "ВендорL",
-          "title": "Вендор",
-          "children": null
-        },
-        {
-          "link": "i-i-s-kursovaya1-тип-l",
-          "menuName": null,
-          "caption": "ТипL",
-          "title": "Тип",
-          "children": null
-        },
-        {
-          "link": "i-i-s-kursovaya1-филиал-l",
-          "menuName": null,
-          "caption": "ФилиалL",
-          "title": "Филиал",
-          "children": null
-        },
-        {
-          "link": "i-i-s-kursovaya1-пользователь-l",
-          "menuName": null,
-          "caption": "ПользовательL",
-          "title": "Пользователь",
-          "children": null
-        }
-      ]
     }
   ],
   "mobile": true
